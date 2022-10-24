@@ -1,0 +1,51 @@
+public class Main {
+    public static void main(String[] args) {
+        var dog = 8;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        dog=dog+4;
+        cat=cat+4;
+        paper=paper+4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        dog=dog-4;
+        cat=cat-1.6;
+        paper=paper-7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        var friend = 19;
+        System.out.println(friend);
+        friend=friend+2;
+        System.out.println(friend);
+        friend = friend / 3;
+        System.out.println(friend);
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog*10;
+        System.out.println(frog);
+        frog = frog/3.5;
+        System.out.println(frog);
+        frog=frog+4;
+        System.out.println(frog);
+        var w1f = 78.2;
+        var w2f = 82.7;
+        var totalWf = w1f +     w2f;
+        var difference = w2f - w1f;
+        System.out.println("общий вес бойцов - " + totalWf + " кг");
+        System.out.println("разница в весе у них " + difference + " кг");
+        var difference2 = w2f % w1f;
+        System.out.println("разница в весе, используя %, у них - " + difference2 + " кг");
+        var timeInDay = 8;
+        var totalTime = 640;
+        var stuff = totalTime / timeInDay;
+        var stuff2 = stuff+94;
+        var totalTime2 = stuff2*timeInDay;
+        System.out.println("Всего работников в компании – " + stuff + " человек");
+        System.out.println("Если в компании работает " + stuff2 + " человека, то всего " + totalTime2 + " часов работы может быть поделено между сотрудниками" );
+    }
+}
